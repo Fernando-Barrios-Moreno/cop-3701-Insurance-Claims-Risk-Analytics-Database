@@ -3,7 +3,7 @@ import csv
 import os
 
 oracledb.init_oracle_client(
-    lib_dir=r"C:\oracle\instantclient_11_2"
+    lib_dir="/workspaces/cop-3701-Insurance-Claims-Risk-Analytics-Database/instantclient_21_12"
 )
 # -----------------------------
 # DATABASE CONNECTION CONFIG
