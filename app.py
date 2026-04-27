@@ -1,13 +1,6 @@
 from nicegui import ui
 import os
-
-os.environ["LD_LIBRARY_PATH"] = "/workspaces/cop-3701-Insurance-Claims-Risk-Analytics-Database/instantclient_21_12:" + os.environ.get("LD_LIBRARY_PATH", "")
-
 import oracledb
-
-oracledb.init_oracle_client(
-    lib_dir="/workspaces/cop-3701-Insurance-Claims-Risk-Analytics-Database/instantclient_21_12"
-)
 
 
 USERNAME = "FERNANDOPAULBARRI_SCHEMA_4O4M7"

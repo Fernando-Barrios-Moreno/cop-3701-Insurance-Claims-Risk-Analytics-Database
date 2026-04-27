@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 os.makedirs("data", exist_ok=True)
 
 # Input file (paste your dataset into this file)
-INPUT_FILE = "raw_data.csv"
+INPUT_FILE = "data/raw_data.csv"
 
 # Output files
 policyholder_file = "data/policyholder.csv"
